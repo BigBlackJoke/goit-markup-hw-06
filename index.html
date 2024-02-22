@@ -29,11 +29,18 @@
   <body>
     <header class="header">
       <div class="container container-header">
-        <nav class="navigation">
-          <a class="page-link" href="./index.html"
-            >Web<span class="logo-accent">Studio</span></a
-          >
-          <div class="open-menu">
+        <a class="page-link" href="./index.html"
+          >Web<span class="logo-accent">Studio</span></a
+        >
+
+        <svg class="svg-open-menu" width="24" height="24">
+          <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
+        </svg>
+        <div class="open-menu is-open">
+          <svg class="header-menu-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+          <nav class="navigation">
             <ul class="menu-nav">
               <li>
                 <a class="menu-nav-link current" href="./index.html">Studio</a>
