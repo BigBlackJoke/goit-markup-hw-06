@@ -60,6 +60,12 @@ ul {list-style-type: none;
 
 }
 
+.svg-open-menu {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
 
 .logo-accent{
     color: #2e2f42;
