@@ -154,13 +154,20 @@ ul {list-style-type: none;
 .hero-image {
     max-width: 320px;
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-image-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 72px;
+    padding-top: 72px; 
     padding-bottom: 72px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+
+@media (min-resolution: 192dpi) {
+    .hero-image {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image-mobile-2x.jpg);
+    }
 }
 
 .hero-image-text {
@@ -836,7 +843,16 @@ background-color: #404BBF;
         min-width: 768px;
         padding-top: 112px;
         padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image-tablet.jpg);
     }
+
+        @media (min-resolution: 192dpi) {
+            .hero-image {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/hero-image-tablet-2x.jpg);
+            }
+        }
 
     .svg-open-menu {
         display: none;
@@ -1020,6 +1036,15 @@ background-color: #404BBF;
         min-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hero-image-comp.jpg);
+    }
+
+    @media (min-resolution: 192dpi) {
+        .hero-image {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hero-image-comp-2x.jpg);
+        }
     }
 
     .s-one-icon-border {
