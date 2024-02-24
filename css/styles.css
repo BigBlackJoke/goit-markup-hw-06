@@ -1022,6 +1022,10 @@ background-color: #404BBF;
     .main-button {
         margin-top: 36px;
     }
+
+    .footer-input {
+        margin-right: 24px;
+    }
     
 }
 
